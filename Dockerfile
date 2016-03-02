@@ -13,4 +13,4 @@ WORKDIR /data
 EXPOSE 8888
 
 # Fire it up
-CMD jupyter notebook --ip=0.0.0.0 --no-browser
+CMD jupyter notebook --no-browser --port 8888 --ip=* 
